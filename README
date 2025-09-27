@@ -1,0 +1,25 @@
+## CLIP
+
+## Env
+
+```
+python -m venv clip-knn-env
+clip-knn-env\Scripts\activate.bat
+```
+
+### Which CUDA version
+
+```
+nvidia-smi
+```
+
+### Instalation (takes a while)
+```
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129
+pip3 install ftfy regex tqdm
+pip3 install git+https://github.com/openai/CLIP.git
+```
+
+
+### Promising alternative
+https://github.com/mlfoundations/open_clip
