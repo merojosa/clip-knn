@@ -1,11 +1,13 @@
-## CLIP
+# CLIP & KNN Proof of Concepts
 
-### Env
+## Env
 
 ```
 python -m venv clip-knn-env
 clip-knn-env\Scripts\activate.bat
 ```
+
+## CLIP
 
 ### Which CUDA version
 
@@ -20,6 +22,23 @@ pip3 install ftfy regex tqdm
 pip3 install git+https://github.com/openai/CLIP.git
 ```
 
+### Execution
+```
+python clip-pof.py
+```
 
 ### Promising alternative
 https://github.com/mlfoundations/open_clip
+
+## KNN
+
+
+### Instalation
+```
+pip3 install opencv-python scikit-learn matplotlib numpy
+```
+
+### Execution
+```
+python knn-pof.py
+```
