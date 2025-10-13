@@ -36,10 +36,13 @@ https://github.com/mlfoundations/open_clip
 
 ## KNN
 
+### Dataset
+
+Move the COCO JSON dataset to the root of the project and call it `coco-dataset`. `coco-dataset` should have `_annotations.coco.json` and the images.
 
 ### Instalation
 ```
-pip3 install opencv-python scikit-learn matplotlib numpy
+pip3 install torch torchvision scikit-learn pillow tqdm numpy
 ```
 
 ### Execution
