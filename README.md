@@ -19,7 +19,7 @@ clip-knn-env\Scripts\activate.bat
 nvidia-smi
 ```
 
-### Instalation (takes a while)
+### Installation (takes a while)
 ```
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129
 pip3 install ftfy regex tqdm
@@ -40,7 +40,7 @@ https://github.com/mlfoundations/open_clip
 
 Move the COCO JSON dataset to the root of the project and call it `coco-dataset`. `coco-dataset` should have `_annotations.coco.json` and the images.
 
-### Instalation
+### Installation
 ```
 pip3 install torch torchvision scikit-learn pillow tqdm numpy
 ```
